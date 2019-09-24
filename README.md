@@ -23,7 +23,8 @@ Examples:
 	perl checksoas.pl --servers 8.8.8.8 ns.example.org 8.8.4.4 --interactive
 
 --file expects one domain name per line in a file.
-You can specify as many servers as you like.
+
+You can specify as many DNS servers as you like.
 
 Sample output:
 
