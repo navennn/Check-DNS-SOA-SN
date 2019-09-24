@@ -1,6 +1,6 @@
 # Check-Soa
 A perl script used to batch compare serial numbers for SOA records in DNS.
-Background for this script was some customers moving DNS zones outside of my company. It is used for quick verification by comparing SOA serial numbers of DNS zones.
+Background for this script was some customers moving DNS zones outside of my company. It is used for quick verification by comparing SOA serial numbers of DNS zones to make sure that the zone was truly transferred and the configuration can be safely removed.
 
 You can also use this script to quickly check if increased SN has propagated to all the slave DNS servers.
 
